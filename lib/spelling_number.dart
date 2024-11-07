@@ -2827,8 +2827,8 @@ class SpellingNumber {
 
     if (language['unitExceptions'] != null &&
         language['unitExceptions'].length > 0 &&
-        language['unitExceptions'][n] != null) {
-      return language['unitExceptions'][n];
+        language['unitExceptions'][n.toString()] != null) {
+      return language['unitExceptions'][n.toString()];
     }
 
     if (alternativeBaseCardinals.length > 0 &&
